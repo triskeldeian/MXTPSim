@@ -1,0 +1,11 @@
+<!-- Enabling the logging system -->
+<logging>
+	<logfile>@SIMU_WORKING_DIR@/log/IBFLog.txt</logfile>
+	<console>true</console>
+	<severity>info</severity>
+</logging>
+
+<!-- Configuring the plugin manager -->
+<pluginmanager>
+	<path>@SIMU_WORKING_DIR@/@PLUGIN_INSTALL_DIR@</path>
+</pluginmanager>
